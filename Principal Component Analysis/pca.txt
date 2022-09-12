@@ -1,1 +1,14 @@
-This folder contains PCA implementation by using an example of box office dataset.
+This folder contains PCA implementation by using an example of box office dataset.[boxoffice is the dependent variable all others comes under Dependent variable]
+The ipynb file answers all these questions
+1.	Histograms of the continuous variables (box, budget, starpwr)?
+2.	Run a linear regression of box office revenues on the “traditional” variables (i.e. using all the independent variables except the “buzz” varibles), check for statistically significant variables at 0.10 level?
+3.	Run another linear regression using only the variables that were significant (again, ignoring the “buzz” variables)?
+4.	Plot histograms of the four “buzz” variables.
+5.	Run a linear regression of box office revenues on all the independent variables (transformed as needed).
+6.	Run another linear regression using only the variables that were significant.
+7.	Compare the models developed so far?
+8.	Apply Principal Component Analysis to just the 4 “buzz” variables?
+9.	Run a linear regression using all the “traditional” independent variables (if transformed, use the transformed versions) and all 4 principal components.
+10.	Now run regressions using the number of principal components based on Kaiser’s Rule and “explained variance” thresholds of 60%, 70%, 80% and 90% (if any of the models are identical, point this out and run it only once). Compare all the regression models involving the principal components (including the one involving all four components).
+Apply Principal Component Analysis to the 4 “buzz” variables and continuous variables(budget,starpowr)
+Regressions using the number of principal components based on Kaiser’s Rule and “explained variance” thresholds of 60%, 70%, 80% and 90% for above question
